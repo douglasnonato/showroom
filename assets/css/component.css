@@ -479,15 +479,25 @@ section.bl-expand .bl-icon-close {
 #telefone{
     position: fixed;
     bottom: 0;
-    height: 80px;
+    height: 110px;
     width: 100%;
     background: #000;
     z-index: 999;
     text-align: center;
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     padding-top: 10px;
+}
+
+#telefone .insta{
+	color: #f32181;
+    text-decoration: underline;
+}
+
+#telefone .whatsapp{
+	color: #4CAF50;
+    text-decoration: underline;
 }
 
 #telefone span{
@@ -501,7 +511,7 @@ section.bl-expand .bl-icon-close {
 
 @media (max-width: 768px) {
 	#telefone{
-		height: 100px;
-		font-size: 24px;
+		height: 120px;
+		font-size: 18px;
 	}
 }
